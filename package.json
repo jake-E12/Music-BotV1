@@ -1,0 +1,24 @@
+{
+    "name": "Music-Bot-V1.1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": " nodemon index"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/opus": "^0.5.3",
+        "body-parse": "^0.1.0",
+        "body-parser": "^1.19.0",
+        "discord.js": "^12.5.3",
+        "distube": "^2.8.15",
+        "express": "^4.17.1",
+        "ffmpeg-static": "^4.4.0",
+        "nodemon": "^2.0.12",
+        "path": "^0.12.7"
+    }
+}
